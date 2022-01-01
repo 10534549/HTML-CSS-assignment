@@ -5,3 +5,82 @@
 width: 100%;
 height: 100%;
 }
+.page-logo{
+    width:90px;
+    height:90px;
+}
+.page-header{
+    background-color:lightblue;
+    height:90px;
+   
+}
+header{
+    border-bottom:1px solid black;
+    padding:10px;
+    margin:10px;
+}
+.page-header form{
+    display:inline-block;
+    float:right;
+    margin-top:30px;
+    margin-right: 20px;
+}
+.page-header form input{
+    height:40px;
+}
+header navbar{
+    border:1px solid black;
+}
+header navbar nav ul{
+    text-align: center;
+    border:1px solid black;
+    padding:10px;
+}
+header navbar nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0px 30px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    border:1px solid black;
+}
+ul li{
+    list-style:none;
+}
+.page-body{
+    width:100%;
+}
+.page-body aside,.page-body section{
+    display: inline-block;
+    border: 1px solid black;
+    margin:0px 10px;
+    vertical-align: top;
+}
+.page-body aside{
+    width:20%;
+    height:425px;
+
+}
+.page-body section{
+    width:50%;
+    height: 100%;
+}
+aside ul li{
+    margin:15px 0px;
+}
+.post-img{
+    width:150px;
+    height:200px;
+}
+.row .post-img{
+    display: inline-block;
+    margin:4px;
+}
+footer{
+    margin:10px;
+    padding: 10px;
+    border:1px solid black;
+}
